@@ -3,6 +3,7 @@ build/
 dist/
 *.spec
 PythonThinker_Portable/
+release/
 
 # Python cache files
 __pycache__/
@@ -37,17 +38,23 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# User data files (optional - you might want to keep demo files)
+# User data files (exclude actual user data but keep demo files)
 thoughts.json
 thinking_session_*.txt
 thinking_session_*.md
+
+# Specific user session files that were generated
+thinking_session_00f7d99b_20250722_150745.txt
+thinking_session_1bc28e80_20250722_162755.txt
+thinking_session_49b52af3_20250722_162751.md
+thinking_session_8e0d4bb3_20250722_150736.md
 
 # Temporary files
 *.tmp
 *.temp
 *.log
 
-# PyInstaller
+# PyInstaller generated files
 *.manifest
 *.exe
 *.app
@@ -89,3 +96,19 @@ coverage.xml
 # IPython
 profile_default/
 ipython_config.py
+
+# Additional project-specific exclusions
+demo.py
+*.zip
+*.tar.gz
+
+# Windows specific
+desktop.ini
+*.lnk
+
+# Development and testing
+test_*.py
+*_test.py
+tests/
+.coverage
+.pytest_cache/

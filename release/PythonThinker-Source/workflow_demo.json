@@ -1,0 +1,280 @@
+[
+  {
+    "id": "00f7d99b",
+    "title": "Summer Vacation Planning",
+    "description": "Planning our family summer vacation to Europe",
+    "thoughts": [
+      {
+        "id": "94355f2a",
+        "content": "Research destinations in Europe",
+        "category": "research",
+        "priority": 5,
+        "tags": [
+          "travel",
+          "destinations"
+        ],
+        "created_at": "2025-07-22T15:07:45.790648",
+        "updated_at": "2025-07-22T15:07:45.790648",
+        "is_completed": true
+      },
+      {
+        "id": "e485578d",
+        "content": "Check passport expiration dates",
+        "category": "admin",
+        "priority": 5,
+        "tags": [
+          "documents",
+          "travel"
+        ],
+        "created_at": "2025-07-22T15:07:45.790648",
+        "updated_at": "2025-07-22T15:07:45.790648",
+        "is_completed": true
+      },
+      {
+        "id": "d58ca022",
+        "content": "Set vacation budget",
+        "category": "planning",
+        "priority": 5,
+        "tags": [
+          "budget",
+          "finances"
+        ],
+        "created_at": "2025-07-22T15:07:45.790648",
+        "updated_at": "2025-07-22T15:07:45.790648",
+        "is_completed": true
+      },
+      {
+        "id": "a1933883",
+        "content": "Book flights early for better prices",
+        "category": "booking",
+        "priority": 4,
+        "tags": [
+          "flights",
+          "savings"
+        ],
+        "created_at": "2025-07-22T15:07:45.790648",
+        "updated_at": "2025-07-22T15:07:45.790648",
+        "is_completed": false
+      },
+      {
+        "id": "31a104a3",
+        "content": "Research local customs and etiquette",
+        "category": "research",
+        "priority": 2,
+        "tags": [
+          "culture",
+          "preparation"
+        ],
+        "created_at": "2025-07-22T15:07:45.790648",
+        "updated_at": "2025-07-22T15:07:45.790648",
+        "is_completed": false
+      },
+      {
+        "id": "5c35016c",
+        "content": "Learn basic phrases in local language",
+        "category": "preparation",
+        "priority": 3,
+        "tags": [
+          "language",
+          "communication"
+        ],
+        "created_at": "2025-07-22T15:07:45.790648",
+        "updated_at": "2025-07-22T15:07:45.790648",
+        "is_completed": false
+      },
+      {
+        "id": "d0f91f60",
+        "content": "Find family-friendly accommodations",
+        "category": "booking",
+        "priority": 4,
+        "tags": [
+          "hotels",
+          "family"
+        ],
+        "created_at": "2025-07-22T15:07:45.790648",
+        "updated_at": "2025-07-22T15:07:45.790648",
+        "is_completed": false
+      },
+      {
+        "id": "4b249f31",
+        "content": "Plan daily itineraries",
+        "category": "planning",
+        "priority": 3,
+        "tags": [
+          "activities",
+          "scheduling"
+        ],
+        "created_at": "2025-07-22T15:07:45.790648",
+        "updated_at": "2025-07-22T15:07:45.790648",
+        "is_completed": false
+      },
+      {
+        "id": "e52b2843",
+        "content": "Pack appropriate clothing",
+        "category": "preparation",
+        "priority": 2,
+        "tags": [
+          "packing",
+          "weather"
+        ],
+        "created_at": "2025-07-22T15:07:45.790648",
+        "updated_at": "2025-07-22T15:07:45.790648",
+        "is_completed": false
+      },
+      {
+        "id": "57e91f8d",
+        "content": "Arrange pet care while away",
+        "category": "logistics",
+        "priority": 4,
+        "tags": [
+          "pets",
+          "arrangements"
+        ],
+        "created_at": "2025-07-22T15:07:45.790648",
+        "updated_at": "2025-07-22T15:07:45.790648",
+        "is_completed": false
+      }
+    ],
+    "created_at": "2025-07-22T15:07:45.790648",
+    "updated_at": "2025-07-22T15:07:45.790648"
+  },
+  {
+    "id": "1bc28e80",
+    "title": "Summer Vacation Planning",
+    "description": "Planning our family summer vacation to Europe",
+    "thoughts": [
+      {
+        "id": "363dc3d5",
+        "content": "Research destinations in Europe",
+        "category": "research",
+        "priority": 5,
+        "tags": [
+          "travel",
+          "destinations"
+        ],
+        "created_at": "2025-07-22T16:27:55.388318",
+        "updated_at": "2025-07-22T16:27:55.391384",
+        "is_completed": true
+      },
+      {
+        "id": "077e16b9",
+        "content": "Check passport expiration dates",
+        "category": "admin",
+        "priority": 5,
+        "tags": [
+          "documents",
+          "travel"
+        ],
+        "created_at": "2025-07-22T16:27:55.388651",
+        "updated_at": "2025-07-22T16:27:55.391763",
+        "is_completed": true
+      },
+      {
+        "id": "288d5650",
+        "content": "Set vacation budget",
+        "category": "planning",
+        "priority": 5,
+        "tags": [
+          "budget",
+          "finances"
+        ],
+        "created_at": "2025-07-22T16:27:55.388972",
+        "updated_at": "2025-07-22T16:27:55.392233",
+        "is_completed": true
+      },
+      {
+        "id": "363247d2",
+        "content": "Book flights early for better prices",
+        "category": "booking",
+        "priority": 4,
+        "tags": [
+          "flights",
+          "savings"
+        ],
+        "created_at": "2025-07-22T16:27:55.389243",
+        "updated_at": "2025-07-22T16:27:55.389243",
+        "is_completed": false
+      },
+      {
+        "id": "96655ef0",
+        "content": "Research local customs and etiquette",
+        "category": "research",
+        "priority": 2,
+        "tags": [
+          "culture",
+          "preparation"
+        ],
+        "created_at": "2025-07-22T16:27:55.389526",
+        "updated_at": "2025-07-22T16:27:55.389526",
+        "is_completed": false
+      },
+      {
+        "id": "09a486c4",
+        "content": "Learn basic phrases in local language",
+        "category": "preparation",
+        "priority": 3,
+        "tags": [
+          "language",
+          "communication"
+        ],
+        "created_at": "2025-07-22T16:27:55.389799",
+        "updated_at": "2025-07-22T16:27:55.389799",
+        "is_completed": false
+      },
+      {
+        "id": "46e905bc",
+        "content": "Find family-friendly accommodations",
+        "category": "booking",
+        "priority": 4,
+        "tags": [
+          "hotels",
+          "family"
+        ],
+        "created_at": "2025-07-22T16:27:55.390069",
+        "updated_at": "2025-07-22T16:27:55.390069",
+        "is_completed": false
+      },
+      {
+        "id": "d880c241",
+        "content": "Plan daily itineraries",
+        "category": "planning",
+        "priority": 3,
+        "tags": [
+          "activities",
+          "scheduling"
+        ],
+        "created_at": "2025-07-22T16:27:55.390333",
+        "updated_at": "2025-07-22T16:27:55.390333",
+        "is_completed": false
+      },
+      {
+        "id": "4fbd2300",
+        "content": "Pack appropriate clothing",
+        "category": "preparation",
+        "priority": 2,
+        "tags": [
+          "packing",
+          "weather"
+        ],
+        "created_at": "2025-07-22T16:27:55.390588",
+        "updated_at": "2025-07-22T16:27:55.390588",
+        "is_completed": false
+      },
+      {
+        "id": "c535c6ad",
+        "content": "Arrange pet care while away",
+        "category": "logistics",
+        "priority": 4,
+        "tags": [
+          "pets",
+          "arrangements"
+        ],
+        "created_at": "2025-07-22T16:27:55.390918",
+        "updated_at": "2025-07-22T16:27:55.390918",
+        "is_completed": false
+      }
+    ],
+    "created_at": "2025-07-22T16:27:55.387618",
+    "updated_at": "2025-07-22T16:27:55.392233"
+  }
+]

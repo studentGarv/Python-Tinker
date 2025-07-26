@@ -1,66 +1,17 @@
-# Build artifacts - exclude from repository
-build/
-dist/
-*.spec
-PythonThinker_Portable/
-release/
+# =============================================================================
+# Python Thinker - Comprehensive .gitignore
+# =============================================================================
 
-# Python cache files
+# Python Cache and Bytecode
+# -------------------------
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
 .Python
 
-# Virtual environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-.conda/
-
-# IDE and editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# User data files (exclude actual user data but keep demo files)
-thoughts.json
-thinking_session_*.txt
-thinking_session_*.md
-
-# Specific user session files that were generated
-thinking_session_00f7d99b_20250722_150745.txt
-thinking_session_1bc28e80_20250722_162755.txt
-thinking_session_49b52af3_20250722_162751.md
-thinking_session_8e0d4bb3_20250722_150736.md
-
-# Temporary files
-*.tmp
-*.temp
-*.log
-
-# PyInstaller generated files
-*.manifest
-*.exe
-*.app
-
-# Distribution / packaging
-.Python
+# Distribution / Packaging
+# ------------------------
 build/
 develop-eggs/
 dist/
@@ -73,42 +24,231 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-# Unit test / coverage reports
-htmlcov/
+# PyInstaller Build Artifacts
+# ---------------------------
+*.spec
+*.exe
+*.app
+*.manifest
+PythonThinker_Portable/
+PythonThinker_Standalone/
+
+# Release Packages (Large Binary Files)
+# -------------------------------------
+release/
+releases/
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.7z
+*.rar
+
+# User Data Files
+# ---------------
+thoughts.json
+thinking_session_*.txt
+thinking_session_*.md
+thinking_session_*.json
+user_data/
+data/
+sessions/
+
+# Virtual Environments
+# -------------------
+.env
+.env.*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pyvenv.cfg
+.conda/
+conda-meta/
+
+# IDE and Editor Files
+# -------------------
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+*.swp
+*.swo
+*~
+.#*
+\#*#
+*.sublime-project
+*.sublime-workspace
+
+# OS Generated Files
+# -----------------
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Temporary Files
+# --------------
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.rej
+*.log
+*.logs
+*.pid
+*.seed
+*.cover
+
+# Testing and Coverage
+# -------------------
 .tox/
+.nox/
 .coverage
 .coverage.*
 .cache
-nosetests.xml
+.pytest_cache/
+.hypothesis/
+htmlcov/
+.nyc_output
 coverage.xml
 *.cover
-.hypothesis/
-.pytest_cache/
+*.py,cover
+nosetests.xml
+test-results/
+
+# Documentation
+# -------------
+docs/_build/
+.readthedocs.yml
+site/
 
 # Jupyter Notebook
+# ----------------
 .ipynb_checkpoints
-
-# IPython
+*/.ipynb_checkpoints/*
 profile_default/
 ipython_config.py
 
-# Additional project-specific exclusions
-demo.py
-*.zip
-*.tar.gz
+# Environment Variables
+# --------------------
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Windows specific
-desktop.ini
-*.lnk
+# Debugging
+# ---------
+*.dmp
+*.stackdump
 
-# Development and testing
-test_*.py
-*_test.py
-tests/
-.coverage
-.pytest_cache/
+# Database Files
+# --------------
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled Extensions
+# ------------------
+*.so
+*.pyd
+*.dll
+
+# C Extensions
+# ------------
+*.c
+*.h
+
+# Docker
+# ------
+.dockerignore
+Dockerfile
+docker-compose.yml
+.docker/
+
+# CI/CD
+# -----
+.github/workflows/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+
+# Security
+# --------
+.secrets
+secrets.json
+*.pem
+*.key
+*.crt
+*.p12
+
+# Node.js (if any frontend tools are added)
+# -----------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Project Specific
+# ----------------
+# Old session files (from previous development)
+thinking_session_*.txt
+thinking_session_*.md
+
+# Backup files
+*.bak
+*~
+
+# Large data files
+*.data
+*.dat
+
+# Profiling
+# ---------
+.prof
+*.profile
+
+# Static Analysis
+# ---------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
